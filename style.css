@@ -1,0 +1,79 @@
+body{
+    font-family: 'poppins';
+}
+nav{
+    display: flex;
+    justify-content:center;
+}
+nav ul li{
+    display: inline;
+    padding-left: 30px;
+    margin-left: 23px;
+    justify-content:start;
+}
+.menu{
+  display: flex;
+  justify-content: start; 
+}
+.menu ul{
+    margin-left: 0px !important;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+  height:40px;
+  padding-top:10px;
+}
+.navbar{
+    display: flex;
+}
+.image
+{
+    background-image: url(http://2.bp.blogspot.com/--0yWFyfC1JI/UnKC_pwyS-I/AAAAAAAAZnI/e2IARIoP3Pk/s1600/Grassy+Hills+Wallpapers+%25283%2529.jpg);
+    background-size: cover;
+    height:60vh;
+    font-size: 30px;
+    text-align: center;
+    padding-top:80px;
+    background-position: center center;
+}
+.card
+{
+    margin: 20px;
+  width:30%;
+  padding:50px;
+  border-radius:15px;
+  box-shadow: 2px 2px 2px;
+  text-align: center;
+}
+.container
+{
+  width:80%;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+}
+.btn{
+    background-color: aqua;
+}
+footer{
+    display: flex;
+    justify-content: space-between; 
+    color:darkgray;
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+a:hover{
+    color: blue;
+}
+
+.social-links-wrap a
+{
+  display: inline;
+   padding: 5px;
+}
+
